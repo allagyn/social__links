@@ -7,22 +7,23 @@ body {
     box-sizing: border-box;
 }
 
-main {
-    margin: 0;
-    max-width: 100%; /*Equivale a 414px*/
-    width: 25.875rem;
 
+.container {
+    
+    max-width: 100%; /*Equivale a 414px*/
+    margin: 0;
+    width: 25.875rem;
+    
     display: flex;
     justify-content: center;
     flex-direction: column;
-   
 }
 
 .profile {
     margin: 120px 100px 15px 100px;
     display: flex;
     justify-content: center;
-
+    
     max-width: 13.313rem; /*213px*/
     max-height: 13.313rem;
 
@@ -67,3 +68,10 @@ h2 {
     border-radius: 4px;
 }
 
+.icons__vector {
+    margin-top: 4.25rem;
+    display: flex;
+    gap: 1.813rem;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
