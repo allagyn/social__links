@@ -3,27 +3,29 @@
 body {
     background-color: var(--body-bg-color);
     font-family: var(--main-font);
-    width: 100vh;
+   
     box-sizing: border-box;
+    margin: 0 auto;
 }
 
-
-.container {
-    
+main {
+    margin: 0 auto;
     max-width: 100%; /*Equivale a 414px*/
-    margin: 0;
+    
     width: 25.875rem;
     
+
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
 
 .profile {
-    margin: 120px 100px 15px 100px;
+    /* margim:  120px 100px 15px 100px;  */
+    margin: 120px auto 15px;
     display: flex;
     justify-content: center;
-    
+   
     max-width: 13.313rem; /*213px*/
     max-height: 13.313rem;
 
@@ -54,14 +56,19 @@ h2 {
     color: var(--purple);
     
 }
+.links {
+    margin: 33px auto 68px;
+}
 .box__link {
-    margin: 33px 44px auto 44px;
-
+    /* margin: 33px 44px auto 44px; */
+    margin: 16px auto 16px;
+    
     display: flex;
     justify-content: center;
     align-items: center;
 
     max-width: 326px;
+    width: 326px;
     height: 49px;
     
     border: 2px solid var(--purple);
@@ -69,9 +76,9 @@ h2 {
 }
 
 .icons__vector {
-    margin-top: 4.25rem;
+    /* margin-top: 4.25rem; */
     display: flex;
     gap: 1.813rem;
     justify-content: center;
-    margin-bottom: 1rem;
+    margin-bottom: 155px;
 }
