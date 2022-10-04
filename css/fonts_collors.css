@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
 :root {
     --body-bg-color: #FAF7FD;
-    --purple: #BB99DD;
+    --text: #368ABF;
+    --baseblue: #9AC1D9;
     --main-font:'Merriweather Sans', sans-serif;
   }

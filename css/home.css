@@ -19,10 +19,15 @@ main {
     justify-content: center;
     flex-direction: column;
 }
+.topo {
+    margin: 120px auto 0px;
+    /* display: grid;
+    gap: 0.938rem; */
+    
+}
 
 .profile {
-    /* margim:  120px 100px 15px 100px;  */
-    margin: 120px auto 15px;
+   
     display: flex;
     justify-content: center;
    
@@ -30,7 +35,7 @@ main {
     max-height: 13.313rem;
 
     padding: 7px;
-    border: 2px solid var(--purple);
+    border: 2px solid var(--baseblue);
     border-radius: 100%;
 
 }
@@ -42,10 +47,17 @@ main {
     border-radius: 100%;
     
 }
+.text__profile {
+    margin: 15px auto 33px;
+    
+}
+a {
+    text-decoration: none;
+}
 p {
     font-size: 1rem;
     font-weight: 300;
-    color: var(--purple);
+    color: var(--baseblue);
     text-align: center;
     
 }
@@ -53,14 +65,15 @@ h2 {
     font-size: 1rem;
     font-weight: 600;
     text-align: center;
-    color: var(--purple);
+    color: var(--baseblue);
     
 }
 .links {
-    margin: 33px auto 68px;
+    
+    margin: 0px auto 68px;
 }
 .box__link {
-    /* margin: 33px 44px auto 44px; */
+  
     margin: 16px auto 16px;
     
     display: flex;
@@ -71,12 +84,12 @@ h2 {
     width: 326px;
     height: 49px;
     
-    border: 2px solid var(--purple);
+    border: 2px solid var(--baseblue);
     border-radius: 4px;
 }
 
 .icons__vector {
-    /* margin-top: 4.25rem; */
+    
     display: flex;
     gap: 1.813rem;
     justify-content: center;
