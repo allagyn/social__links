@@ -21,13 +21,12 @@ main {
 }
 .topo {
     margin: 120px auto 0px;
-    /* display: grid;
-    gap: 0.938rem; */
+    
     
 }
 
 .profile {
-   
+    
     display: flex;
     justify-content: center;
    
@@ -45,7 +44,7 @@ main {
     max-width: 12.5rem; 
     max-height: 12.5rem;
     border-radius: 100%;
-    
+   
 }
 .text__profile {
     margin: 15px auto 33px;
@@ -87,11 +86,17 @@ h2 {
     border: 2px solid var(--baseblue);
     border-radius: 4px;
 }
-
-.icons__vector {
-    
+footer {
+   
     display: flex;
     gap: 1.813rem;
     justify-content: center;
-    margin-bottom: 155px;
+    margin-bottom: 155px
+  
+}
+
+.icons__vector img {
+    
+    max-width: 100%;
+    width: 40px;
 }
