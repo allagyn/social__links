@@ -20,7 +20,7 @@ main {
     flex-direction: column;
 }
 .topo {
-    margin: 120px auto 0px;
+    margin: 30px auto 0px;
     
     
 }
@@ -94,4 +94,10 @@ footer {
     
     margin: 0 auto 155px;
    
+}
+
+.cardbtn {
+    display: inline-block;
+    width: 326px;
+    border: 2px solid var(--text);
 }
