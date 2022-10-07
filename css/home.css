@@ -95,9 +95,3 @@ footer {
     margin: 0 auto 15px;
    
 }
-
-.cardbtn {
-    display: inline-block;
-    width: 326px;
-    border: 2px solid var(--text);
-}
