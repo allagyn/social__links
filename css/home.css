@@ -88,7 +88,7 @@ h2 {
     border: 2px solid var(--text);
     border-radius: 4px;
 }
-footer {
+.links_externos {
    
     display: flex;
     gap: 1.813rem;
@@ -96,4 +96,45 @@ footer {
     
     margin: 0 auto 15px;
    
+}
+/* Estilos para o footer */
+.site-footer {
+    
+    max-width: 326px;
+    margin: 0 auto;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 12px;
+}
+
+.footer-content {
+    display: flex;
+    gap: 0 10px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.author-info p {
+    margin: 0;
+    font-size: 12px;
+    color: black;
+}
+
+.contact-options {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.contact-options a img {
+    width: 20px;
+    height: 20px;
+    border: none;
+}
+
+/* Estilos de hover para os ícones */
+.contact-options a:hover img {
+    opacity: 0.8;
 }
